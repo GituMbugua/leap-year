@@ -1,4 +1,4 @@
-$(document.ready(function) {
+$(document).ready(function() {
   $("form#leap-year").submit(function(event) {
     event.preventDefault();
     var year = parseInt($("input#year").val());
@@ -6,3 +6,7 @@ $(document.ready(function) {
     $("#result").text(result);
   });
 });
+
+var leapYear = function(year) {
+  return false;
+};
